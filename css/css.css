@@ -1,0 +1,79 @@
+/*------------------------------------------------------------
+--------------------Defult CSS settings-----------------------
+------------------------------------------------------------*/
+html, body {
+    height: 100%;
+}
+ul, li {
+    list-style-type: none;
+}
+/*------------------------------------------------------------
+--------------------Navigation Menu Settings------------------
+------------------------------------------------------------*/ 
+.header {
+    top: 0;
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+    overflow: hidden;
+    position: sticky;
+	background: #3C3C3C;
+    position: -webkit-sticky; /*For Safari*/
+    border: 1px solid #e7e7e7;
+}
+.header .menu nav ul li {
+    text-align: center;
+}
+.header .menu nav ul li a { /*Text*/
+    height: 10px;
+    color: white;
+    font-size: 100%;
+    padding: 15px 20px; /*Backgound size*/
+    text-align: center;
+    font-weight: bolder;
+    text-decoration: none;
+    display: inline-block;
+}
+.header .menu nav ul li a:hover { /*Text hover settings*/
+	color: #ffa500;
+}
+/*------------------------------------------------------------
+--------------------Header Banner Settings--------------------
+------------------------------------------------------------*/
+.banner {
+    width: 100%;
+    height: 50%;
+    position: relative;
+    background-size: cover; /*Full*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/banner.jpg");
+}
+.banner_title {
+    top: 50%;
+    left: 50%;
+    color: white;
+    position: relative;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+/*------------------------------------------------------------
+--------------------Introduction Settings---------------------
+------------------------------------------------------------*/
+.introduction {
+    height: 80%;
+    padding: 0% 0%;
+    text-align: center;
+}
+.text {
+    padding: 3% 5%;
+    font-size: 18px;
+    display: inline-block;
+}
+hr.service_line {
+    width: 80%;
+    border: 5%;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
