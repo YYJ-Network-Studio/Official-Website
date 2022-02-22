@@ -9,7 +9,6 @@
     width: 100%;
 }
 .commodities li { /*Border size*/
-    right: -3%;
     float: left;
     width: 200px;
     height: 280px;
@@ -49,7 +48,10 @@
     font-size: 20px;
     color: #ffae00;
 }
-.commodities li input {
+.commodities li a {
+    text-decoration: none;
+}
+.commodities li button {
     border: 0;
     width: 100px;
     height: 40px;
@@ -60,7 +62,7 @@
     transition-duration: 0.5s;
     background-color: #6ca0dc;
 }   
-.commodities li input:hover {
+.commodities li button:hover {
     border: 0;
     color: white;
     background-color: #85C1E9;
