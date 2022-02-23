@@ -78,11 +78,13 @@ hr.service_line {
     background-image: linear-gradient(to right, #ccc, #333, #ccc);
 }
 /*------------------------------------------------------------
---------------------Fotter settings---------------------------
+--------------------Footer settings---------------------------
 ------------------------------------------------------------*/
 footer {
     height: 10%;
-    color: white;
+    margin-top: 10%;
+    color: white; /*Text color*/
+    position: relative;
     text-align: center;
     background-color: #3C3C3C;
 }
