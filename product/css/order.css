@@ -1,0 +1,27 @@
+.text {
+    padding: 3% 30%; /*height/width*/
+    font-size: 18px;
+    display: inline-block;
+}
+.order a {
+    text-decoration: none;
+}
+.order a:hover {
+    text-decoration: none;
+}
+.order button {
+    border: 0;
+    width: 100px;
+    height: 40px;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+    background-color: #6ca0dc;
+}   
+.order button:hover {
+    border: 0;
+    color: white;
+    background-color: #85C1E9;
+}
