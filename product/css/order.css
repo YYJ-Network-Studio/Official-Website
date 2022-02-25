@@ -1,8 +1,18 @@
 .order img {
+    width: 20%;
+    height: 20%;
     margin: 0 auto;
     display: block;
 }
-.order .desciption {
+.order h2 {
+    text-align: center;
+}
+.order .price {
+    font-size: 20px;
+    color: goldenrod;
+    text-align: center;
+}
+.order .description {
     font-size: 18px;    
     text-align: center;
 }
