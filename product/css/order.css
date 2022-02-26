@@ -12,8 +12,21 @@
     color: goldenrod;
     text-align: center;
 }
+.order .line {
+    width: 50%;
+    height: 1px;
+    padding: 10px;
+    margin: 0 auto;
+    border-top: solid #0080FF 5px;
+}
 .order .description {
     font-size: 18px;    
+    text-align: center;
+}
+.order .note {
+    color: red;
+    font-size: 18px;    
+    line-height: 10px;
     text-align: center;
 }
 .order select {
