@@ -84,3 +84,20 @@ footer {
     text-align: center;
     background-color: #3C3C3C;
 }
+/*------------------------------------------------------------
+--------------------Terms settings----------------------------
+------------------------------------------------------------*/
+.terms_title {
+    padding: 20px;
+    text-align: center;
+}
+.terms_line {
+    width: 50%;
+    height: 1px;
+    margin: 0 auto;
+    border-top: solid #0080FF 5px;
+}
+.terms_text {
+    text-align: left;
+    padding: 10px 10%;
+}
