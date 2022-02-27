@@ -99,5 +99,6 @@ footer {
 }
 .terms_text {
     text-align: left;
+    line-height: 15px;
     padding: 10px 10%;
 }
