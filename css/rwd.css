@@ -1,0 +1,15 @@
+@media (min-width: 200px) {
+    footer {
+        margin-top: 150%;
+    }
+}
+@media (min-width: 300px) {
+    footer {
+        margin-top: 50%;
+    }
+}
+@media (min-width: 900px) {
+    footer {
+        margin-top: 10%;
+    }
+}
