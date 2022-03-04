@@ -1,5 +1,5 @@
 # YYJ-Network-Studio-Official-Website
-此專案是YYJ Network Studio的官網(https://yyjstudio.com/)，由YYJ製作。
+此專案是YYJ Network Studio的官網( https://yyjstudio.com/ )，由YYJ製作。
 This project is YYJ Network Studio official website, made by YYJ.
 
 ## 版權聲明 Copyright Notice
