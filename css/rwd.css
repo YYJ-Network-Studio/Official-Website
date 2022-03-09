@@ -21,12 +21,12 @@
 ------------------------------------------------------------*/
 @media (min-width: 200px) {
     footer {
-        margin-top: 150%;
+        margin-top: 200%;
     }
 }
 @media (min-width: 300px) {
     footer {
-        margin-top: 100%;
+        margin-top: 150%;
     }
 }
 @media (min-width: 900px) {
