@@ -40,6 +40,7 @@ input[type="checkbox"] {
 }
 nav .menu i {
     display: none;
+    color: white;
 }
 nav ul {
     display: flex;
