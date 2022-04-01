@@ -1,3 +1,13 @@
+.an {
+    width: 50%;
+    height: 100px;
+    padding: 10px;
+    margin: 0 auto;
+    line-height: 5px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #AED6F1;
+}
 .commodities {  
     width: 90%;
     display: flex;
