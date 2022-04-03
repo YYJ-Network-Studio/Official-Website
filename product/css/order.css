@@ -30,6 +30,7 @@
 .order .note {
     color: red;
     font-size: 18px;   
+    line-height: 100%;
     text-align: center;
 }
 .order select {
