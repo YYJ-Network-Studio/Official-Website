@@ -14,21 +14,16 @@
     margin-top: 3%;
     text-align: center;
 }
-.commodities ul {
-    width: 100%;
-    margin-left: 2%;
-}
 .commodities li { /*Border size*/
-    float: left;
     width: 200px;
     height: 280px;
-    padding-left: 3px; /*Text horizontal size*/
     margin-left: 10px;
     position: relative;
     margin-right: 10px;
     border-radius: 10px;
-    padding-right: 10px;
     margin-bottom: 20px;
+    display: inline-block;
+    vertical-align: middle;
     background-color: #004792;
     /*border: 1px solid #ffffff;*/
 }
