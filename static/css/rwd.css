@@ -62,18 +62,15 @@
 /*------------------------------------------------------------
 --------------------Footer RWD Settings-----------------------
 ------------------------------------------------------------*/
-@media (min-width: 200px) {
-    footer {
-        margin-top: 120%;
+@media (max-width: 600px) {
+    footer .footer-left, .footer-distributed .footer-right {
+        text-align: center;
     }
-}
-@media (min-width: 300px) {
-    footer {
-        margin-top: 70%;
+    footer .footer-right {
+        float: none;
+        margin: 0 auto 20px;
     }
-}
-@media (min-width: 1000px) {
-    footer {
-        margin-top: 10%;
+    footer .footer-left p.footer-links {
+        line-height: 2.0;
     }
 }
