@@ -63,14 +63,12 @@
 --------------------Footer RWD Settings-----------------------
 ------------------------------------------------------------*/
 @media (max-width: 600px) {
-    footer .footer-left, .footer-distributed .footer-right {
+    footer .footer-pages, .footer-copyright, .footer-social-media {
+        line-height: 2.0;
         text-align: center;
     }
-    footer .footer-right {
+    footer .footer-social-media {
         float: none;
         margin: 0 auto 20px;
-    }
-    footer .footer-left p.footer-links {
-        line-height: 2.0;
     }
 }

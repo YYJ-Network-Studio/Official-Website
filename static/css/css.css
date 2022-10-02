@@ -113,13 +113,13 @@ footer {
     font: normal 15px sans-serif;
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
 }
-footer .footer-left p {
+footer .footer-copyright p {
     margin: 0;
     font-size: 20px;
     line-height: 1.5;
     color: #8f9296;
 }
-footer .footer-links {
+footer .footer-pages {
     padding: 0;
     color: white;
     font-size: 20px;
@@ -127,18 +127,18 @@ footer .footer-links {
     font-weight: bold;
     transition: ease .25s;
 }
-footer .footer-links a {
+footer .footer-pages a {
     line-height: 1.5;
     transition: ease .25s;
     text-decoration: none;
     display: inline-block;
 }
-footer .footer-right {
+footer .footer-social-media {
     float: right;
     margin-top: 5px;
     max-width: 180px;
 }
-footer .footer-right a {
+footer .footer-social-media a {
     width: 35px;
     height: 35px;
     color: white;
@@ -151,7 +151,7 @@ footer .footer-right a {
     display: inline-block;
     background-color: #33383b;
 }
-footer .footer-right a:hover {
+footer .footer-social-media a:hover {
     transform: scale(1.1); 
     -webkit-transform: scale(1.1);
 }
