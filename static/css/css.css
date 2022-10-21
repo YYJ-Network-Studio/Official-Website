@@ -99,10 +99,32 @@ nav ul li a:hover {
     font-size: 20px;
     text-align: center;
 }
-.cv {
+.present {
     font-size: 20px;
     text-align: center;
     padding-bottom: 3%;
+}
+.experience {
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.skills {
+    padding: 3%;
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.skills ul li {
+    width: 300px;
+    height: auto;
+    border-radius: 5px;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    background-color: #8f9296;
 }
 /*------------------------------------------------------------
 --------------------Footer settings---------------------------
