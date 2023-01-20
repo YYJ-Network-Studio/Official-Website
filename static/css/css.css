@@ -233,11 +233,13 @@ hr {
     cursor: pointer;
     padding: 16px 20px;
     border-radius: 5px;
+    transition: 0.5s;
     background-color: #04AA6D;
 }
 .registerbtn:hover {
     opacity: 1;
     border-radius: 5px;
+    transform: scale(0.99);
 }
 a {
     color: dodgerblue;
