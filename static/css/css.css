@@ -199,3 +199,46 @@ footer .footer-social-media a:hover {
     line-height: 150%;
     padding: 10px 10%;
 }
+/*------------------------------------------------------------
+--------------------Register settings-------------------------
+------------------------------------------------------------*/
+.container {
+    padding: 30px 200px 30px 200px;
+    background-color: white;
+}
+input[type=text], input[type=password] {
+    width: 100%;
+    border: none;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    background: #F1F1F1;
+}
+  input[type=text]:focus, input[type=password]:focus {
+    outline: none;
+    background-color: #DDD;
+}
+hr {
+    margin-bottom: 25px;
+    border: 1px solid #F1F1F1;
+}
+.registerbtn {
+    width: 100%;
+    border: none;
+    opacity: 0.9;
+    margin: 8px 0;
+    color: white;
+    cursor: pointer;
+    padding: 16px 20px;
+    background-color: #04AA6D;
+}
+.registerbtn:hover {
+    opacity: 1;
+}
+a {
+    color: dodgerblue;
+}
+.login {
+    text-align: center;
+    background-color: #F1F1F1;
+}
