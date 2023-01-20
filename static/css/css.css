@@ -210,12 +210,14 @@ input[type=text], input[type=password] {
     width: 100%;
     border: none;
     padding: 15px;
+    border-radius: 5px;
     margin: 5px 0 22px 0;
     display: inline-block;
     background: #F1F1F1;
 }
-  input[type=text]:focus, input[type=password]:focus {
+input[type=text]:focus, input[type=password]:focus {
     outline: none;
+    border-radius: 5px;
     background-color: #DDD;
 }
 hr {
@@ -230,10 +232,12 @@ hr {
     color: white;
     cursor: pointer;
     padding: 16px 20px;
+    border-radius: 5px;
     background-color: #04AA6D;
 }
 .registerbtn:hover {
     opacity: 1;
+    border-radius: 5px;
 }
 a {
     color: dodgerblue;
