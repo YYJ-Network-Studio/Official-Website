@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>註冊</title>
+  <title>登入</title>
   <!--meta > charset-->
 	<meta charset="utf-8">
 	<!--meta > http-equiv-->
@@ -11,10 +11,10 @@
 	<meta name="distribution" content="Taiwan">
 	<meta name="revisit-after" content="3 days">
 	<meta name="copyright" content="版權所有 © 2021 YYJ">
-  <meta name="description" content="註冊帳號獲取更多功能！">
+  <meta name="description" content="登入帳號獲取更多功能！">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="keywords" content="YNS服務條款, YYJ Network Studio服務條款">
-	<meta name="keywords" Lang="zh-TW" content="YYJ帳號,YYJ註冊,YYJ帳號註冊,YYJ Network Studio帳號註冊">
+	<meta name="keywords" Lang="zh-TW" content="YYJ帳號,YYJ登入,YYJ登入帳號,YYJ Network Studio登入帳號">
 	<!--link > rel-->
   <link rel="icon" href="static/images/favicon.ico">	
 	<link rel="stylesheet" type="text/css" href="static/css/css.css">
@@ -41,29 +41,23 @@
   </nav>
   <form action="" method="POST">
     <div class="container">
-      <h1>註冊帳號</h1>
+      <h1>登入帳號</h1>
       <hr>
 
       <label for="username"><b>使用者名稱</b></label>
-      <input type="text" placeholder="Enter Username" name="username" id="id_username" required>
-
-      <label for="email"><b>Email</b></label>
-      <input type="text" placeholder="Enter Email" name="email" id="id_email" required>
+      <input type="text" placeholder="Enter Username" name="username" required>
 
       <label for="psw"><b>密碼</b></label>
-      <input type="password" placeholder="Enter Password" name="password1" id="id_password1" required>
-
-      <label for="psw-repeat"><b>確認密碼</b></label>
-      <input type="password" placeholder="Repeat Password" name="password2" id="id_password2" required>
+      <input type="password" placeholder="Enter Password" name="password" required>
 
       <hr>
-      <p>創建帳號代表你同意<a href="terms.html">服務條款</a>之規定</p>
+      <p>使用帳號代表你同意<a href="terms.html">服務條款</a>之規定</p>
 
       <button type="submit" class="registerbtn">註冊帳號</button>
     </div>
   
     <div class="container login">
-      <p>已經有帳號了？<a href="login.html">登入</a></p>
+      <p>還沒有帳號？<a href="register.html">登入</a></p>
     </div>
   </form>
   <footer>
@@ -84,4 +78,3 @@
   <script src="https://kit.fontawesome.com/098165415c.js" crossorigin="anonymous"></script>
 </body>
 </html>
-
