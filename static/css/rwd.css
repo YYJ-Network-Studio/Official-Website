@@ -45,9 +45,9 @@
 --------------------Introduction RWD Settings-----------------
 ------------------------------------------------------------*/
 @media (max-width: 600px) {
-    .skills {
-        margin: 0 auto;
-        flex-direction: column;
+    .skills li {
+        width: 350px;
+        height: auto;
     }
 }
 /*------------------------------------------------------------

@@ -92,7 +92,7 @@ nav ul li a:hover {
 ------------------------------------------------------------*/
 .content {
     color: white;
-    background-color: #272727;
+    background-color: #212121;
 }
 .col-12 {
     padding: 3%;
@@ -110,21 +110,24 @@ nav ul li a:hover {
     padding-bottom: 3%;
 }
 .skills {
-    padding: 3%;
     display: flex;
-    margin: 0 auto;
     text-align: center;
-    flex-flow: row wrap;
-    justify-content: space-between;
+    justify-content: center;
 }
-.skills ul li {
-    width: 300px;
-    height: auto;
-    border-radius: 5px;
+.skills li {
+    margin: 10px;
+    width: 550px;
+    padding: 10px;
+    height: 200px;
+    transition: 0.5s;
     position: relative;
+    border-radius: 5px;
     display: inline-block;
     vertical-align: middle;
-    background-color: #8f9296;
+    background-color: #161A1D;
+}
+.skills p {
+    color: #C0C0C0;
 }
 /*------------------------------------------------------------
 --------------------Footer settings---------------------------
