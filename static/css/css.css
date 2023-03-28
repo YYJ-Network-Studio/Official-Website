@@ -94,20 +94,14 @@ nav ul li a:hover {
     color: white;
     background-color: #212121;
 }
+.content h2 {
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
 .col-12 {
     padding: 3%;
     font-size: 20px;
     text-align: center;
-}
-.present {
-    font-size: 20px;
-    text-align: center;
-    padding-bottom: 3%;
-}
-.experience {
-    font-size: 20px;
-    text-align: center;
-    padding-bottom: 3%;
 }
 .skills {
     display: flex;
@@ -127,6 +121,40 @@ nav ul li a:hover {
     background-color: #161A1D;
 }
 .skills p {
+    color: #C0C0C0;
+}
+.links {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    flex-direction: column;
+    justify-content: center;
+}
+.links li {
+    width: 400px;
+    height: 60px;
+    margin: 5px;
+    padding: 10px;
+    transition: 0.5s;
+    border-radius: 5px;
+    background-color: #161A1D;
+}
+.links li:hover {
+    transform: scale(1.05);
+}
+.links li p {
+    color: #C0C0C0;
+}
+.experience h4 {
+    color: #0077B5;
+    text-underline-offset: 5px;
+    text-decoration: solid underline #FFA500 3px;
+}
+.experience span, .experience h5 {
+    margin-right: 10px;
+    display: inline-block;
+}
+.experience span {
     color: #C0C0C0;
 }
 /*------------------------------------------------------------
