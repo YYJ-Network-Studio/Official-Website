@@ -145,6 +145,9 @@ nav ul li a:hover {
 .links li p {
     color: #C0C0C0;
 }
+.experience {
+    margin: 0 auto;
+}
 .experience h4 {
     color: #0077B5;
     text-underline-offset: 5px;
@@ -154,8 +157,16 @@ nav ul li a:hover {
     margin-right: 10px;
     display: inline-block;
 }
-.experience span {
+.experience li span {
     color: #C0C0C0;
+}
+.experience li p {
+    width: 300px;
+    margin: 0 auto;
+    color: #8F9296;
+    font-size: large;
+    text-align: left;
+
 }
 /*------------------------------------------------------------
 --------------------Footer settings---------------------------
