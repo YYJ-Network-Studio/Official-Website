@@ -77,7 +77,7 @@ nav ul li a:hover {
     position: relative;
     background-size: cover;
     background-position: center center;
-    background-image: url("../images/banner.jpg");
+    background-image: url("../images/banner.png");
 }
 .banner-title code {
     top: 35%;
