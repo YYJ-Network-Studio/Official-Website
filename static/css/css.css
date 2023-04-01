@@ -1,6 +1,26 @@
-/*------------------------------------------------------------
---------------------Defult CSS settings-----------------------
-------------------------------------------------------------*/
+/* Dark mode */
+
+.light-mode {
+    color: black;
+    background-color: #E5E5E5;
+}
+.light-mode .skills li, .light-mode .links li, .light-mode .experience {
+    background-color: white;
+}
+.light-mode .skills p, .light-mode .experience p {
+    color: gray;
+}
+.i {
+    position: relative;
+}
+.fa-moon {
+    top: 0;
+    right: 5%;
+    position: absolute;
+}
+
+/* Basic label */
+
 html, body {
     height: 100%;
 }
@@ -13,9 +33,9 @@ a {
 a:hover {
     text-decoration: none;
 }
-/*------------------------------------------------------------
---------------------Navigation Menu Settings------------------
-------------------------------------------------------------*/ 
+
+/* Nav */
+
 * {
     margin: 0;
     padding: 0;
@@ -33,7 +53,7 @@ nav {
     justify-content: space-between;
 }
 nav .logo {
-    color: #fff;
+    color: white;
     font-size: 35px;
     font-weight: 600;
 }
@@ -67,9 +87,9 @@ nav ul li a:hover {
     background: white;
     text-decoration: none;
 }
-/*------------------------------------------------------------
---------------------Header Banner Settings--------------------
-------------------------------------------------------------*/
+
+/* Banner */
+
 .banner {
     width: 100%;
     height: 40%;
@@ -103,12 +123,12 @@ nav ul li a:hover {
       width: 250px;
     }
 }
-/*------------------------------------------------------------
---------------------Introduction Settings---------------------
-------------------------------------------------------------*/
+
+/* Intro */
+
 .content {
     color: white;
-    background-color: #212121;
+    background-color: #272727;
 }
 .content h2 {
     font-weight: bold;
@@ -246,9 +266,9 @@ nav ul li a:hover {
     line-height: 10px;
     padding-left: 30px;
 }
-/*------------------------------------------------------------
---------------------Footer settings---------------------------
-------------------------------------------------------------*/
+
+/* Footer */
+
 footer {
     width: 100%;
     padding: 50px 5%; /* Height Border */
@@ -301,9 +321,9 @@ footer .footer-social-media a:hover {
     transform: scale(1.1); 
     -webkit-transform: scale(1.1);
 }
-/*------------------------------------------------------------
---------------------Terms settings----------------------------
-------------------------------------------------------------*/
+
+/* Terms */
+
 .terms_title {
     padding: 20px;
     text-align: center;
@@ -319,9 +339,9 @@ footer .footer-social-media a:hover {
     line-height: 150%;
     padding: 10px 10%;
 }
-/*------------------------------------------------------------
---------------------Register settings-------------------------
-------------------------------------------------------------*/
+
+/* Register */
+
 .container {
     padding: 30px 200px 30px 200px;
     background-color: white;
