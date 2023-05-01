@@ -178,11 +178,32 @@ nav ul li a:hover {
     border-radius: 5px;
     background-color: #161A1D;
 }
+.links a {
+    color: white;
+    font-weight: bold;
+}
+.links a:hover {
+    color: #2ECC40;
+    text-decoration: none;
+}
 .links li:hover {
     transform: scale(1.05);
 }
-.links li p {
-    color: #C0C0C0;
+.links li:nth-child(1) {
+    background-color: #E4405F;
+}
+  
+.links li:nth-child(2) {
+    background-color: #FFA500;
+}
+.links li:nth-child(3) {
+    background-color: #833AB4;
+}
+.links li:nth-child(4) {
+    background-color: #181717;
+}
+.links li:nth-child(5) {
+    background-color: #0074D9;
 }
 
 /* Experience */
