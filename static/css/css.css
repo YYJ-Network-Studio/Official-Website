@@ -203,6 +203,9 @@ nav ul li a:hover {
     background-color: #181717;
 }
 .links li:nth-child(5) {
+    background-color: #7289DA;
+}
+.links li:nth-child(6) {
     background-color: #0074D9;
 }
 
