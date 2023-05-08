@@ -291,6 +291,28 @@ nav ul li a:hover {
     padding-left: 30px;
 }
 
+/* Skills Details */
+
+.skills-details {
+    width: 80%;
+    margin: 0 auto;
+}
+.skills-details .tags {
+    background-color: #424242;
+}
+.skills-details i {
+    padding: 3px;
+    margin-right: 10px;
+    border-radius: 5px;
+    background-color: #0074D9;
+}
+.skills-details span {
+    padding: 5px;
+    font-size: 15px;
+    border-radius: 5px;
+    background-color: #161A1D;
+}
+
 /* Footer */
 
 footer {

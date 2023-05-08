@@ -78,6 +78,10 @@
         margin: 0 auto;
         line-height: 20px;
     }
+    .skills-details {
+        width: 95%;
+        margin: 0 auto;
+    }
 }
 /*------------------------------------------------------------
 --------------------Select RWD Settings-----------------------
