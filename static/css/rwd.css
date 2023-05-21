@@ -2,9 +2,8 @@
 --------------------Navigation RWD Settings-------------------
 ------------------------------------------------------------*/
 @media (max-width: 1000px) {
-    nav .logo {
-        font-size: 25px;
-        text-align: center;
+    .fa-moon {
+        top: 10px;
     }
     nav .menu i {
         display: block;
