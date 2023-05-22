@@ -51,7 +51,7 @@ nav {
     display: flex;
     position: fixed;
     padding: 20px 10%;
-    align-items: center;
+    align-items: stretch;
     background-color: #1B1B1B;
     justify-content: space-between;
 }

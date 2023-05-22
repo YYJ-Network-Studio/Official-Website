@@ -3,7 +3,7 @@
 ------------------------------------------------------------*/
 @media (max-width: 1000px) {
     .fa-moon {
-        top: 10px;
+        top: 5px;
     }
     nav .menu i {
         display: block;
@@ -28,11 +28,11 @@
         background: #1B1B1B;
         transition: all 0.3s ease;
     }
-    nav ul li{
+    nav ul li {
         width: 100%;
         margin: 20px 0;
     }
-    nav ul li a{
+    nav ul li a {
         width: 100%;
         display: block;
         font-size: 20px;
