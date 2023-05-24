@@ -1,18 +1,24 @@
-const themeToggle = document.getElementById('theme');
-const originalColor = themeToggle.style.color;
-const content = document.querySelector('.content .col-12')
-const skills = document.querySelectorAll('.skills li')
-const links = document.querySelectorAll('.links li')
-const exp = document.querySelectorAll('.experience')
+const button = document.getElementById("toggle");
+const body = document.querySelector("body");
+const container = document.querySelector(".container");
 
-themeToggle.addEventListener('click', () => {
-  if (themeToggle.style.color == 'white') {
-    themeToggle.style.color = 'gray'
-  } else {
-    themeToggle.style.color = 'white';
-  }
-  content.classList.toggle('light-mode')
-  skills.forEach(skills.classList.toggle('light-mode'));
-  links.forEach(links.classList.toggle('light-mode'));
-  exp.forEach(exp.classList.toggle('light-mode'));
-});
+window.onload = function() {
+    const theme = localStorage.getItem('theme');
+    if (theme === 'dark') {
+        button.classList.add('dark');
+        container.classList.add('dark');
+        body.classList.add('dark');
+    }
+}
+
+button.onclick = function() {
+    button.classList.toggle('dark');
+    container.classList.toggle('dark');
+    body.classList.toggle('dark');
+    
+    if (localStorage.getItem('theme') === 'dark') {
+        localStorage.setItem('theme', 'light');
+    } else {
+        localStorage.setItem('theme', 'dark');
+    }
+}
