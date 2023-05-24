@@ -1,4 +1,4 @@
-.job_list li {
+.job-list li {
     width: 80%;
     padding: 20px;
     margin: 0 auto;
@@ -9,6 +9,12 @@
     margin-bottom: 20px;
     background-color: #D9D9D9;
 }
-.job_list li:hover {
-    box-shadow: 5px 5px #00BFFF;
+.hashtag {
+    color: #0077BE;
+    font-size: 0.8rem;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-right: 0.5rem;
+    padding: 0.2rem 0.4rem;
+    background-color: #CCCCCC;
 }
