@@ -17,7 +17,7 @@ a, a:hover {
     cursor: pointer;
     position: absolute;
     border-radius: 30px;
-    background-color: black;
+    background-color: #777;
 }
 #toggle .button {
     top: 0;
@@ -277,6 +277,14 @@ nav ul li a:hover {
     font-size: 15px;
 }
 
+/* Service */
+
+.fixed-size-img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+
 /* Footer */
 
 footer {
@@ -334,28 +342,20 @@ footer .footer-social-media a:hover {
 
 /* Terms */
 
-.terms_title {
+.terms-title {
     padding: 20px;
     text-align: center;
 }
-.terms_line {
+.terms-line {
     width: 50%;
-    height: 1px;
     margin: 0 auto;
-    border-top: solid #0080FF 5px;
-}
-.terms_text {
-    text-align: left;
-    line-height: 150%;
-    padding: 10px 10%;
+    color: #FF8C00;
+    border-radius: 5px;
+    border-top: 5px solid;
 }
 
 /* Register */
 
-.container {
-    padding: 30px 200px 30px 200px;
-    background-color: white;
-}
 input[type=text], input[type=password] {
     width: 100%;
     border: none;
