@@ -27,9 +27,6 @@
 </head>
 <body>
 	<nav>
-		<div class="i">
-			<i class="fa-regular fa-moon" style="color: white;" id="theme"></i>
-		</div>
 		<input type="checkbox" id="click">
 		<label for="click" class="menu">
 			<i class="fas fa-bars"></i>
@@ -42,6 +39,9 @@
 			<li><a href="https://article.yyjstudio.com">文章<i class="fa-solid fa-arrow-up-right-from-square ml-3"></i></a></li>
 			<li><a href="service.html">商城<i class="fa-solid fa-arrow-up-right-from-square ml-3"></i></a></li>
 		</ul>
+		<div id="toggle">
+			<i class="button"></i>
+		</div>
 	</nav>
 	<!--
 	<div class="banner"></div>
@@ -49,300 +49,282 @@
 		<code id="code-text">yyj.say('Welcome')</code>
 	</div>
 	-->
-	<div class="content">
-		<div class="col-12 mt-5">
-			<h2 id="about">Who am I</h2>
-			<p>本名楊耀主，網名叫YYJ，一個興趣很多的人。</p>
-			<h2>I foucs on</h2>
-			<div class="skills">
-				<ul>
-			   		<li>
-						<h2>資訊</h2>
-				  		<p>接觸過前端和後端(Django)，常用Python串接API實現自動化服務，正在學習神經網路(Neural Network)和部署基層網路，喜歡買機架式伺服器設備來擺飾。經營伺服器託管，偶爾接網頁和程式開發的案子。</p>
-			   		</li>
-					<li>
-						<h2>音樂</h2>
-						<p>自學吉他也喜歡教吉他，偶爾彈Bass、鋼琴，正在學習製作小提琴和電子編曲，想玩爵士鼓和電吉他。</p>
-						<a href="https://www.instagram.com/yang.yaozhu/reels">音樂作品連結</a>
-					</li>
-					<li>
-						<h2>攝影</h2>
-						<p>近期開始接觸人像攝影，拿到單眼會變瘋子，Sony派，其他牌子都好醜，希望有機會可以拍微電影。</p>
-						<a href="https://www.instagram.com/yyj_photo">攝影作品連結</a>
-					</li>
-					<li>
-						<h2>其他</h2>
-						<p>偶爾研究股票、素描重機，喜歡閱讀企業管理經營相關的書，興趣多到做不完。</p>
-					</li>
-				</ul>
-			</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
 
-			<h2 id="links">Links</h2>
-			<div class="links">
-				<li>
-					<i class="fab fa-instagram"></i>
-					<a href="https://www.instagram.com/yang.yaozhu">IG日常&音樂帳</a>
-				</li>
-				<li>
-					<i class="fab fa-instagram"></i>
-					<a href="https://www.instagram.com/yyj_photo">IG攝影作品帳</a>
-				</li>
-				<li>
-					<i class="fab fa-instagram"></i>
-					<a href="https://www.instagram.com/yyjstudio_com">IG資訊工作帳</a>
-				</li>
-				<li>
-					<i class="fab fa-github"></i>
-					<a href="https://github.com/YYJ-TW">Github</a>
-				</li>
-				<li>
-					<i class="fab fa-discord"></i>
-					<a href="https://discord.gg/U69GRSSRZE">Discord</a>
-				</li>
-				<li>
-					<i class="fa fa-link"></i>
-					<a href="https://waterdroplet.net">水滴託管官網</a>
-				</li>
-			</div>
-
-			<div id="resume" class="row m-5">
-				<div class="col-md-4">
-					<h2 class="resume-section-title d-flex font-weight-bold pb-3 mb-3">服務經營</h2>
-					<div class="resume-timeline position-relative">
-
-						<article class="resume-timeline-item position-relative">
-							<div class="resume-timeline-item">
-								<h6 class="resume-title d-flex font-weight-bold mb-1">Violin Works 東海提琴夢工場</h6>
-								<span class="resume-time d-flex">April, 2023 - Present</span>
-							</div>
-							<div class="resume-timeline-item-desc text-left">
-								<div class="d-flex">
-									<p>官網開發與社群媒體經營。</p>
-								</div>
-								<div class="d-flex">
-									<ul class="list-inline">
-										<li class="list-inline-item"><span class="badge bg-secondary">吉他教學</span></li>
-										<li class="list-inline-item"><span class="badge bg-secondary">前端開發</span></li>
-										<li class="list-inline-item"><span class="badge bg-secondary">社群媒體經營</span></li>
-									</ul>
-								</div>
-							</div>
-						</article>
-
-						<article class="resume-timeline-item position-relative">
-							<div class="resume-timeline-item">
-								<h6 class="resume-title d-flex font-weight-bold mb-1">水滴託管 WDHost</h6>
-								<span class="resume-time d-flex">April, 2021 - Present</span>
-							</div>
-							<div class="resume-timeline-item-desc text-left">
-								<div class="d-flex">
-									<p>提供伺服器託管服務，目標打造太陽能發電，實現零碳排目標。</p>
-								</div>
-								<div class="d-flex">
-									<ul class="list-inline">
-										<li class="list-inline-item"><span class="badge bg-secondary">虛擬化管理</span></li>
-										<li class="list-inline-item"><span class="badge bg-secondary">網路管理</span></li>
-										<li class="list-inline-item"><span class="badge bg-secondary">整合化服務</span></li>
-									</ul>
-								</div>
-							</div>
-						</article>
-
-						<article class="resume-timeline-item position-relative">
-							<div class="resume-timeline-item">
-								<h6 class="resume-title d-flex font-weight-bold mb-1">YYJ Network Studio</h6>
-								<span class="resume-time d-flex">March, 2021 - Present</span>
-							</div>
-							<div class="resume-timeline-item-desc text-left">
-								<div class="d-flex">
-									<p>提供各式資訊教學和網頁、程式開發服務。</p>
-								</div>
-								<div class="d-flex">
-									<ul class="list-inline">
-										<li class="list-inline-item"><span class="badge bg-secondary">HTML/CSS/JS</span></li>
-										<li class="list-inline-item"><span class="badge bg-secondary">Bootstrap</span></li>
-										<li class="list-inline-item"><span class="badge bg-secondary">Django</span></li>
-									</ul>
-								</div>
-							</div>
-						</article>
-
-						<article class="resume-timeline-item position-relative">
-							<div class="resume-timeline-item">
-								<h6 class="resume-title d-flex font-weight-bold mb-1">YYJ Discord Bot</h6>
-								<span class="resume-time d-flex">March, 2021 - Present</span>
-							</div>
-							<div class="resume-timeline-item-desc text-left">
-								<div class="d-flex">
-									<p>將伺服器託管、DNS、網路設備整合到 Discord 管理。</p>
-								</div>
-								<div class="d-flex">
-									<ul class="list-inline">
-										<li class="list-inline-item"><span class="badge bg-secondary">Discord.py</span></li>
-										<li class="list-inline-item"><span class="badge bg-secondary">RestAPI</span></li>
-									</ul>
-								</div>
-							</div>
-						</article>		
-
-						<article class="resume-timeline-item position-relative">
-							<div class="resume-timeline-item">
-								<h6 class="resume-title d-flex font-weight-bold mb-1">Minecraft 水滴伺服器</h6>
-								<span class="resume-time d-flex">July, 2020 - 2022</span>
-							</div>
-							<div class="resume-timeline-item-desc text-left">
-								<div class="d-flex">
-									<p>負責伺服器整體維運和遊戲開發。</p>
-								</div>
-								<div class="d-flex">
-									<ul class="list-inline">
-										<li class="list-inline-item"><span class="badge bg-secondary">Minecraft Plugins</span></li>
-										<li class="list-inline-item"><span class="badge bg-secondary">Java</span></li>
-										<li class="list-inline-item"><span class="badge bg-secondary">MySQL</span></li>
-									</ul>
-								</div>
-							</div>
-						</article>
-					</div>
-				</div>
-
-				<div class="col-md-4">
-					<h2 class="resume-section-title d-flex font-weight-bold pb-3 mb-3">教學生涯 & 接案生涯</h2>
-					<div class="resume-timeline position-relative">
-
-						<article class="resume-timeline-item position-relative">
-							<div class="resume-timeline-item mb-2">
-								<div class="d-flex">
-									<h3 class="resume-title text-left font-weight-bold mb-1">車隊培訓兼課</h3>
-								</div>
-								<div class="d-flex">
-									<div class="resume-time">March, 2023</div>
-								</div>
-							</div>
-						</article>
-
-						<article class="resume-timeline-item position-relative">
-							<div class="resume-timeline-item mb-2">
-								<div class="d-flex">
-									<h3 class="resume-title text-left font-weight-bold mb-1">木吉他教學</h3>
-								</div>
-								<div class="d-flex">
-									<div class="resume-time">December, 2022</div>
-								</div>
-							</div>
-						</article>
-
-						<article class="resume-timeline-item position-relative">
-							<div class="resume-timeline-item mb-2">
-								<div class="d-flex">
-									<h3 class="resume-title text-left font-weight-bold mb-1">國立大學資訊管理系線上課後教學</h3>
-								</div>
-								<div class="d-flex">
-									<div class="resume-time">June, 2022</div>
-								</div>
-							</div>
-						</article>
-
-						<article class="resume-timeline-item position-relative">
-							<div class="resume-timeline-item mb-2">
-								<div class="d-flex">
-									<h3 class="resume-title text-left font-weight-bold mb-1">網頁前端開發線上教學</h3>
-								</div>
-								<div class="d-flex">
-									<div class="resume-time">November, 2021</div>
-								</div>
-							</div>
-						</article>
-						<article class="resume-timeline-item position-relative">
-							<div class="resume-timeline-item mb-2">
-								<div class="d-flex">
-									<h3 class="resume-title text-left font-weight-bold mb-1">Python 程式開發</h3>
-								</div>
-								<div class="d-flex">
-									<div class="resume-time">October, 2021</div>
-								</div>
-							</div>
-						</article>
-
-						<article class="resume-timeline-item position-relative">
-							<div class="resume-timeline-item mb-2">
-								<div class="d-flex">
-									<h3 class="resume-title text-left font-weight-bold mb-1">網頁前端開發</h3>
-								</div>
-								<div class="d-flex">
-									<div class="resume-time">August, 2021</div>
-								</div>
-							</div>
-						</article>
-					</div>
+				<div class="intro text-center">
+					<h2 id="about">Who am I</h2>
+					<p>本名楊耀主，網名叫YYJ。</p>
 				</div>
 				
-				<div class="col-md-4">
-					<h2 class="resume-section-title d-flex font-weight-bold pb-3 mb-3">技能</h2>
-					<div class="resume-section-content">
-						<div class="resume-skill-item">
-							<h4 class="resume-skills d-flex font-weight-bold"><i class="fa-solid fa-desktop mr-2"></i>資訊</h4>
-							<ul class="list-unstyled mb-4">
-								<li class="mb-2">
-									<div class="resume-skill-name d-flex ">HTML / CSS / JS / Bootstrap / Django</div>
-									<div class="progress resume-progress">
-										<div class="progress-bar theme-progress-bar-dark" style="width: 50%"></div>
-									</div>
-								</li>
-								<li class="mb-2">
-									<div class="resume-skill-name d-flex">Python</div>
-									<div class="progress resume-progress">
-										<div class="progress-bar theme-progress-bar-dark" style="width: 40%"></div>
-									</div>
-								</li>
-								<li class="mb-2">
-									<div class="resume-skill-name d-flex">BGP / Ubuntu / Debian / FortiOS</div>
-									<div class="progress resume-progress">
-										<div class="progress-bar theme-progress-bar-dark" style="width: 10%"></div>
-									</div>
-								</li>
-								<h4 class="resume-skills d-flex font-weight-bold"><i class="fa-solid fa-music mr-2"></i>音樂</h4>
-								<li class="mb-2">
-									<div class="resume-skill-name d-flex">Guitar / Bass / Violin / Piano</div>
-									<div class="progress resume-progress">
-										<div class="progress-bar theme-progress-bar-dark" style="width: 70%"></div>
-									</div>
-								</li>
-								<li class="mb-2">
-									<div class="resume-skill-name d-flex">Music Production</div>
-									<div class="progress resume-progress">
-										<div class="progress-bar theme-progress-bar-dark" style="width: 20%"></div>
-									</div>
-								</li>
-								<h4 class="resume-skills d-flex font-weight-bold"><i class="fa-solid fa-camera mr-2"></i>攝影</h4>
-								<li class="mb-2">
-									<div class="resume-skill-name d-flex">Sony α7</div>
-									<div class="progress resume-progress">
-										<div class="progress-bar theme-progress-bar-dark" style="width: 30%"></div>
-									</div>
-								</li>
-								<li class="mb-2">
-									<div class="resume-skill-name d-flex">Lightroom / Photoshop</div>
-									<div class="progress resume-progress">
-										<div class="progress-bar theme-progress-bar-dark" style="width: 20%"></div>
-									</div>
-								</li>
-								<li class="mb-2">
-									<div class="resume-skill-name d-flex">Final Cut Pro</div>
-									<div class="progress resume-progress">
-										<div class="progress-bar theme-progress-bar-dark" style="width: 20%"></div>
-									</div>
-								</li>
-								<h4 class="resume-skills d-flex font-weight-bold"><i class="fa-solid fa-pen mr-2"></i>其他</h4>
-								<li class="mb-2">
-									<div class="resume-skill-name d-flex">素描</div>
-									<div class="progress resume-progress">
-										<div class="progress-bar theme-progress-bar-dark" style="width: 30%"></div>
-									</div>
-								</li>
+				<h2 class="text-center">Links</h2>
+				<div id="links" class="links text-center">
+					<li>
+						<i class="fab fa-instagram"></i>
+						<a href="https://www.instagram.com/yang.yaozhu">IG日常&音樂帳</a>
+					</li>
+					<li>
+						<i class="fab fa-instagram"></i>
+						<a href="https://www.instagram.com/yyj_photo">IG攝影作品帳</a>
+					</li>
+					<li>
+						<i class="fab fa-instagram"></i>
+						<a href="https://www.instagram.com/yyjstudio_com">IG資訊工作帳</a>
+					</li>
+					<li>
+						<i class="fab fa-github"></i>
+						<a href="https://github.com/YYJ-TW">Github</a>
+					</li>
+					<li>
+						<i class="fab fa-discord"></i>
+						<a href="https://discord.gg/U69GRSSRZE">Discord</a>
+					</li>
+					<li>
+						<i class="fa fa-link"></i>
+						<a href="https://waterdroplet.net">水滴託管官網</a>
+					</li>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div id="resume" class="row col-12 mb-5">
+		<div class="col-md-3 mx-auto">
+			<h2 class="resume-section-title d-flex font-weight-bold pb-3 mb-3">服務經營</h2>
+			<div class="resume-timeline position-relative">
+
+				<article class="resume-timeline-item position-relative">
+					<div class="resume-timeline-item">
+						<h6 class="resume-title d-flex font-weight-bold mb-1">Violin Works 東海提琴夢工場</h6>
+						<span class="resume-time d-flex">April, 2023 - Present</span>
+					</div>
+					<div class="resume-timeline-item-desc">
+						<div class="d-flex">
+							<p>官網開發與社群媒體經營。</p>
+						</div>
+						<div class="d-flex">
+							<ul class="list-inline">
+								<li class="list-inline-item"><span class="badge bg-secondary">吉他教學</span></li>
+								<li class="list-inline-item"><span class="badge bg-secondary">前端開發</span></li>
+								<li class="list-inline-item"><span class="badge bg-secondary">社群媒體經營</span></li>
 							</ul>
 						</div>
 					</div>
+				</article>
+
+				<article class="resume-timeline-item position-relative">
+					<div class="resume-timeline-item">
+						<h6 class="resume-title d-flex font-weight-bold mb-1">水滴託管 WDHost</h6>
+						<span class="resume-time d-flex">April, 2021 - Present</span>
+					</div>
+					<div class="resume-timeline-item-desc">
+						<div class="d-flex">
+							<p>提供伺服器託管服務，目標打造太陽能發電，實現零碳排目標。</p>
+						</div>
+						<div class="d-flex">
+							<ul class="list-inline">
+								<li class="list-inline-item"><span class="badge bg-secondary">虛擬化管理</span></li>
+								<li class="list-inline-item"><span class="badge bg-secondary">網路管理</span></li>
+								<li class="list-inline-item"><span class="badge bg-secondary">整合化服務</span></li>
+							</ul>
+						</div>
+					</div>
+				</article>
+
+				<article class="resume-timeline-item position-relative">
+					<div class="resume-timeline-item">
+						<h6 class="resume-title d-flex font-weight-bold mb-1">YYJ Network Studio</h6>
+						<span class="resume-time d-flex">March, 2021 - Present</span>
+					</div>
+					<div class="resume-timeline-item-desc">
+						<div class="d-flex">
+							<p>提供各式資訊教學和網頁、程式開發服務。</p>
+						</div>
+						<div class="d-flex">
+							<ul class="list-inline">
+								<li class="list-inline-item"><span class="badge bg-secondary">HTML/CSS/JS</span></li>
+								<li class="list-inline-item"><span class="badge bg-secondary">Bootstrap</span></li>
+								<li class="list-inline-item"><span class="badge bg-secondary">Django</span></li>
+							</ul>
+						</div>
+					</div>
+				</article>
+
+				<article class="resume-timeline-item position-relative">
+					<div class="resume-timeline-item">
+						<h6 class="resume-title d-flex font-weight-bold mb-1">YYJ Discord Bot</h6>
+						<span class="resume-time d-flex">March, 2021 - Present</span>
+					</div>
+					<div class="resume-timeline-item-desc">
+						<div class="d-flex">
+							<p>將伺服器託管、DNS、網路設備整合到 Discord 管理。</p>
+						</div>
+						<div class="d-flex">
+							<ul class="list-inline">
+								<li class="list-inline-item"><span class="badge bg-secondary">Discord.py</span></li>
+								<li class="list-inline-item"><span class="badge bg-secondary">RestAPI</span></li>
+							</ul>
+						</div>
+					</div>
+				</article>		
+
+				<article class="resume-timeline-item position-relative">
+					<div class="resume-timeline-item">
+						<h6 class="resume-title d-flex font-weight-bold mb-1">Minecraft 水滴伺服器</h6>
+						<span class="resume-time d-flex">July, 2020 - 2022</span>
+					</div>
+					<div class="resume-timeline-item-desc">
+						<div class="d-flex">
+							<p>負責伺服器整體維運和遊戲開發。</p>
+						</div>
+						<div class="d-flex">
+							<ul class="list-inline">
+								<li class="list-inline-item"><span class="badge bg-secondary">Minecraft Plugins</span></li>
+								<li class="list-inline-item"><span class="badge bg-secondary">Java</span></li>
+								<li class="list-inline-item"><span class="badge bg-secondary">MySQL</span></li>
+							</ul>
+						</div>
+					</div>
+				</article>
+			</div>
+		</div>
+
+		<div class="col-md-3 mx-auto">
+			<h2 class="resume-section-title d-flex font-weight-bold pb-3 mb-3">教學生涯 & 接案生涯</h2>
+			<div class="resume-timeline position-relative">
+
+				<article class="resume-timeline-item position-relative">
+					<div class="resume-timeline-item mb-2">
+						<div class="d-flex">
+							<h3 class="resume-title font-weight-bold mb-1">車隊培訓兼課</h3>
+						</div>
+						<div class="d-flex">
+							<div class="resume-time">March, 2023</div>
+						</div>
+					</div>
+				</article>
+
+				<article class="resume-timeline-item position-relative">
+					<div class="resume-timeline-item mb-2">
+						<div class="d-flex">
+							<h3 class="resume-title font-weight-bold mb-1">木吉他教學</h3>
+						</div>
+						<div class="d-flex">
+							<div class="resume-time">December, 2022</div>
+						</div>
+					</div>
+				</article>
+
+				<article class="resume-timeline-item position-relative">
+					<div class="resume-timeline-item mb-2">
+						<div class="d-flex">
+							<h3 class="resume-title font-weight-bold mb-1">國立大學資訊管理系線上課後教學</h3>
+						</div>
+						<div class="d-flex">
+							<div class="resume-time">June, 2022</div>
+						</div>
+					</div>
+				</article>
+
+				<article class="resume-timeline-item position-relative">
+					<div class="resume-timeline-item mb-2">
+						<div class="d-flex">
+							<h3 class="resume-title font-weight-bold mb-1">網頁前端開發線上教學</h3>
+						</div>
+						<div class="d-flex">
+							<div class="resume-time">November, 2021</div>
+						</div>
+					</div>
+				</article>
+				<article class="resume-timeline-item position-relative">
+					<div class="resume-timeline-item mb-2">
+						<div class="d-flex">
+							<h3 class="resume-title font-weight-bold mb-1">Python 程式開發</h3>
+						</div>
+						<div class="d-flex">
+							<div class="resume-time">October, 2021</div>
+						</div>
+					</div>
+				</article>
+
+				<article class="resume-timeline-item position-relative">
+					<div class="resume-timeline-item mb-2">
+						<div class="d-flex">
+							<h3 class="resume-title font-weight-bold mb-1">網頁前端開發</h3>
+						</div>
+						<div class="d-flex">
+							<div class="resume-time">August, 2021</div>
+						</div>
+					</div>
+				</article>
+			</div>
+		</div>
+		
+		<div class="col-md-3 mx-auto">
+			<h2 class="resume-section-title d-flex font-weight-bold pb-3 mb-3">技能</h2>
+			<div class="resume-section-content">
+				<div class="resume-skill-item">
+					<h4 class="resume-skills d-flex font-weight-bold"><i class="fa-solid fa-desktop mr-2"></i>資訊</h4>
+					<ul class="list-unstyled mb-4">
+						<li class="mb-2">
+							<div class="resume-skill-name d-flex ">HTML / CSS / JS / Bootstrap / Django</div>
+							<div class="progress resume-progress">
+								<div class="progress-bar theme-progress-bar-dark" style="width: 50%"></div>
+							</div>
+						</li>
+						<li class="mb-2">
+							<div class="resume-skill-name d-flex">Python</div>
+							<div class="progress resume-progress">
+								<div class="progress-bar theme-progress-bar-dark" style="width: 40%"></div>
+							</div>
+						</li>
+						<li class="mb-2">
+							<div class="resume-skill-name d-flex">BGP / Ubuntu / Debian / FortiOS</div>
+							<div class="progress resume-progress">
+								<div class="progress-bar theme-progress-bar-dark" style="width: 10%"></div>
+							</div>
+						</li>
+						<h4 class="resume-skills d-flex font-weight-bold"><i class="fa-solid fa-music mr-2"></i>音樂</h4>
+						<li class="mb-2">
+							<div class="resume-skill-name d-flex">Guitar / Bass / Violin / Piano</div>
+							<div class="progress resume-progress">
+								<div class="progress-bar theme-progress-bar-dark" style="width: 70%"></div>
+							</div>
+						</li>
+						<li class="mb-2">
+							<div class="resume-skill-name d-flex">Music Production</div>
+							<div class="progress resume-progress">
+								<div class="progress-bar theme-progress-bar-dark" style="width: 20%"></div>
+							</div>
+						</li>
+						<h4 class="resume-skills d-flex font-weight-bold"><i class="fa-solid fa-camera mr-2"></i>攝影</h4>
+						<li class="mb-2">
+							<div class="resume-skill-name d-flex">Sony α7</div>
+							<div class="progress resume-progress">
+								<div class="progress-bar theme-progress-bar-dark" style="width: 30%"></div>
+							</div>
+						</li>
+						<li class="mb-2">
+							<div class="resume-skill-name d-flex">Lightroom / Photoshop</div>
+							<div class="progress resume-progress">
+								<div class="progress-bar theme-progress-bar-dark" style="width: 20%"></div>
+							</div>
+						</li>
+						<li class="mb-2">
+							<div class="resume-skill-name d-flex">Final Cut Pro</div>
+							<div class="progress resume-progress">
+								<div class="progress-bar theme-progress-bar-dark" style="width: 20%"></div>
+							</div>
+						</li>
+						<h4 class="resume-skills d-flex font-weight-bold"><i class="fa-solid fa-pen mr-2"></i>其他</h4>
+						<li class="mb-2">
+							<div class="resume-skill-name d-flex">素描</div>
+							<div class="progress resume-progress">
+								<div class="progress-bar theme-progress-bar-dark" style="width: 30%"></div>
+							</div>
+						</li>
+					</ul>
 				</div>
 			</div>
 		</div>

@@ -1,37 +1,51 @@
-/* Dark mode */
+/* Basic */
 
-.light-mode {
-    color: black;
-    background-color: #E5E5E5;
-}
-.light-mode .skills li, .light-mode .links li, .light-mode .experience {
-    background-color: white;
-}
-.light-mode .skills p, .light-mode .experience p {
-    color: gray;
-}
-.i {
-    position: relative;
-}
-.fa-moon {
-    top: 30px;
-    right: 5%;
-    position: absolute;
-}
-
-/* Basic label */
-
-html, body {
-    height: 100%;
-}
 ul, li {
     list-style-type: none;
 }
-a {
+a, a:hover {
     text-decoration: none;
 }
-a:hover {
-    text-decoration: none;
+
+/* Toggle Theme */
+
+#toggle {
+    top: 40%;
+    right: 30px;
+    width: 40px;
+    height: 20px;
+    cursor: pointer;
+    position: absolute;
+    border-radius: 30px;
+    background-color: black;
+}
+#toggle .button {
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    transition: 0.5s;
+    position: absolute;
+    border-radius: 50%;
+    transform: scale(0.9);
+    background-color: white;
+}
+#toggle.dark .button {
+    left: 20px;
+    transition: 0.5s;
+}
+#toggle.dark {
+    background-color: greenyellow;
+}
+body.dark {
+    color: white;
+    transition: 1s;
+    background-color: black;
+}
+.container.dark {
+    color: white;
+    transition: 1s;
+    background-color: black;
 }
 
 /* Nav */
@@ -40,7 +54,7 @@ a:hover {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    scroll-padding-top: 100px;
+    scroll-padding-top: 10%;
     font-family: 'Poppins', sans-serif;
 }
 nav {
@@ -49,7 +63,7 @@ nav {
     z-index: 2;
     width: 100%;
     display: flex;
-    position: fixed;
+    position: sticky;
     padding: 20px 10%;
     align-items: center;
     background-color: #1B1B1B;
@@ -127,11 +141,6 @@ nav ul li a:hover {
     font-weight: bold;
     font-family: 'Montserrat', sans-serif;
 }
-.col-12 {
-    padding: 3%;
-    font-size: 20px;
-    text-align: center;
-}
 .skills {
     display: flex;
     text-align: center;
@@ -205,7 +214,6 @@ nav ul li a:hover {
 /* Resume */
 
 .resume-section-title {
-    color: white;
     position: relative;
 }
 .resume-section-title:after {
